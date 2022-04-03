@@ -16,5 +16,10 @@ namespace BucketDonation
         {
             InitializeComponent();
         }
+
+        private void registro_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

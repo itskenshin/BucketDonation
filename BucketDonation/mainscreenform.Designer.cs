@@ -236,6 +236,7 @@
             this.pictureBox7.Size = new System.Drawing.Size(190, 65);
             this.pictureBox7.TabIndex = 11;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // MainScreen
             // 

@@ -26,5 +26,12 @@ namespace BucketDonation
         {
 
         }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            registro re = new registro();
+            re.Show();
+            this.Visible = false;
+        }
     }
 }
