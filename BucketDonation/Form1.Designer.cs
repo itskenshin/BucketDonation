@@ -54,7 +54,6 @@
             this.boton_siguiente.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.boton_siguiente.TabIndex = 1;
             this.boton_siguiente.TabStop = false;
-            
             // 
             // HelpScreen
             // 

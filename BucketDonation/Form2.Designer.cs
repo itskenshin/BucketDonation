@@ -29,20 +29,19 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SplashScrreen));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.splashpick = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.splashpick)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // splashpick
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(798, 565);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            
+            this.splashpick.Image = ((System.Drawing.Image)(resources.GetObject("splashpick.Image")));
+            this.splashpick.Location = new System.Drawing.Point(0, 2);
+            this.splashpick.Name = "splashpick";
+            this.splashpick.Size = new System.Drawing.Size(798, 565);
+            this.splashpick.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.splashpick.TabIndex = 0;
+            this.splashpick.TabStop = false;
             // 
             // SplashScrreen
             // 
@@ -51,20 +50,19 @@
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(800, 567);
             this.ControlBox = false;
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.splashpick);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "SplashScrreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
             this.TransparencyKey = System.Drawing.SystemColors.Window;
-            
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splashpick)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        public System.Windows.Forms.PictureBox splashpick;
     }
 }
