@@ -15,6 +15,7 @@ namespace BucketDonation
         static void Main()
         {
             /// KLK CON KLLK
+            /// dime aver klk
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
