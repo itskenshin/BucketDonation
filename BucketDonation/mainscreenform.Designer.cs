@@ -58,7 +58,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(421, 27);
+            this.pictureBox1.Location = new System.Drawing.Point(419, 45);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(334, 216);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -183,11 +183,12 @@
             // checkblood
             // 
             this.checkblood.AutoSize = true;
+            this.checkblood.BackColor = System.Drawing.SystemColors.Window;
             this.checkblood.Location = new System.Drawing.Point(973, 386);
             this.checkblood.Name = "checkblood";
             this.checkblood.Size = new System.Drawing.Size(15, 14);
             this.checkblood.TabIndex = 6;
-            this.checkblood.UseVisualStyleBackColor = true;
+            this.checkblood.UseVisualStyleBackColor = false;
             // 
             // checkmoney
             // 
@@ -248,6 +249,7 @@
             this.Name = "MainScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BucketDonation";
+            this.TransparencyKey = System.Drawing.SystemColors.Control;
             this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
