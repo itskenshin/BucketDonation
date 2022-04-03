@@ -39,12 +39,20 @@
             this.tipo_donacion_label = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.quiersdonar_label = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.checkblood = new System.Windows.Forms.CheckBox();
+            this.checkmoney = new System.Windows.Forms.CheckBox();
+            this.checkfood = new System.Windows.Forms.CheckBox();
+            this.checktoys = new System.Windows.Forms.CheckBox();
+            this.clothcheck = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -71,10 +79,10 @@
             // 
             this.label_donadoresrecientes.AutoSize = true;
             this.label_donadoresrecientes.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.label_donadoresrecientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_donadoresrecientes.Location = new System.Drawing.Point(131, 313);
+            this.label_donadoresrecientes.Font = new System.Drawing.Font("Goudy Old Style", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_donadoresrecientes.Location = new System.Drawing.Point(127, 313);
             this.label_donadoresrecientes.Name = "label_donadoresrecientes";
-            this.label_donadoresrecientes.Size = new System.Drawing.Size(123, 13);
+            this.label_donadoresrecientes.Size = new System.Drawing.Size(124, 18);
             this.label_donadoresrecientes.TabIndex = 2;
             this.label_donadoresrecientes.Text = "Donadores Reciente";
             this.label_donadoresrecientes.Click += new System.EventHandler(this.label1_Click);
@@ -106,20 +114,20 @@
             // tel_label
             // 
             this.tel_label.AutoSize = true;
-            this.tel_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tel_label.Font = new System.Drawing.Font("Goudy Old Style", 9.254F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tel_label.Location = new System.Drawing.Point(106, 47);
             this.tel_label.Name = "tel_label";
-            this.tel_label.Size = new System.Drawing.Size(57, 13);
+            this.tel_label.Size = new System.Drawing.Size(56, 17);
             this.tel_label.TabIndex = 1;
             this.tel_label.Text = "Teléfono";
             // 
             // nombre_label
             // 
             this.nombre_label.AutoSize = true;
-            this.nombre_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nombre_label.Font = new System.Drawing.Font("Goudy Old Style", 9.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nombre_label.Location = new System.Drawing.Point(13, 47);
             this.nombre_label.Name = "nombre_label";
-            this.nombre_label.Size = new System.Drawing.Size(50, 13);
+            this.nombre_label.Size = new System.Drawing.Size(54, 17);
             this.nombre_label.TabIndex = 2;
             this.nombre_label.Text = "Nombre";
             // 
@@ -127,10 +135,10 @@
             // 
             this.tipo_donacion_label.AutoSize = true;
             this.tipo_donacion_label.BackColor = System.Drawing.SystemColors.Window;
-            this.tipo_donacion_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tipo_donacion_label.Font = new System.Drawing.Font("Goudy Old Style", 9.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tipo_donacion_label.Location = new System.Drawing.Point(191, 38);
             this.tipo_donacion_label.Name = "tipo_donacion_label";
-            this.tipo_donacion_label.Size = new System.Drawing.Size(108, 13);
+            this.tipo_donacion_label.Size = new System.Drawing.Size(106, 17);
             this.tipo_donacion_label.TabIndex = 3;
             this.tipo_donacion_label.Text = "Tipo de Donación";
             // 
@@ -152,12 +160,83 @@
             this.pictureBox5.TabIndex = 5;
             this.pictureBox5.TabStop = false;
             // 
+            // quiersdonar_label
+            // 
+            this.quiersdonar_label.AutoSize = true;
+            this.quiersdonar_label.Font = new System.Drawing.Font("Goudy Old Style", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.quiersdonar_label.Location = new System.Drawing.Point(735, 313);
+            this.quiersdonar_label.Name = "quiersdonar_label";
+            this.quiersdonar_label.Size = new System.Drawing.Size(359, 18);
+            this.quiersdonar_label.TabIndex = 4;
+            this.quiersdonar_label.Text = "Quieres Donar? elegi el tipo de donaciones que quieres hacer";
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(738, 354);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(175, 274);
+            this.pictureBox6.TabIndex = 5;
+            this.pictureBox6.TabStop = false;
+            // 
+            // checkblood
+            // 
+            this.checkblood.AutoSize = true;
+            this.checkblood.Location = new System.Drawing.Point(973, 386);
+            this.checkblood.Name = "checkblood";
+            this.checkblood.Size = new System.Drawing.Size(15, 14);
+            this.checkblood.TabIndex = 6;
+            this.checkblood.UseVisualStyleBackColor = true;
+            // 
+            // checkmoney
+            // 
+            this.checkmoney.AutoSize = true;
+            this.checkmoney.Location = new System.Drawing.Point(973, 436);
+            this.checkmoney.Name = "checkmoney";
+            this.checkmoney.Size = new System.Drawing.Size(15, 14);
+            this.checkmoney.TabIndex = 7;
+            this.checkmoney.UseVisualStyleBackColor = true;
+            // 
+            // checkfood
+            // 
+            this.checkfood.AutoSize = true;
+            this.checkfood.Location = new System.Drawing.Point(973, 493);
+            this.checkfood.Name = "checkfood";
+            this.checkfood.Size = new System.Drawing.Size(15, 14);
+            this.checkfood.TabIndex = 8;
+            this.checkfood.UseVisualStyleBackColor = true;
+            // 
+            // checktoys
+            // 
+            this.checktoys.AutoSize = true;
+            this.checktoys.Location = new System.Drawing.Point(973, 546);
+            this.checktoys.Name = "checktoys";
+            this.checktoys.Size = new System.Drawing.Size(15, 14);
+            this.checktoys.TabIndex = 9;
+            this.checktoys.UseVisualStyleBackColor = true;
+            // 
+            // clothcheck
+            // 
+            this.clothcheck.AutoSize = true;
+            this.clothcheck.Location = new System.Drawing.Point(973, 594);
+            this.clothcheck.Name = "clothcheck";
+            this.clothcheck.Size = new System.Drawing.Size(15, 14);
+            this.clothcheck.TabIndex = 10;
+            this.clothcheck.UseVisualStyleBackColor = true;
+            // 
             // MainScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1173, 728);
+            this.Controls.Add(this.clothcheck);
+            this.Controls.Add(this.checktoys);
+            this.Controls.Add(this.checkfood);
+            this.Controls.Add(this.checkmoney);
+            this.Controls.Add(this.checkblood);
+            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.quiersdonar_label);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label_donadoresrecientes);
             this.Controls.Add(this.pictureBox2);
@@ -175,6 +254,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -192,5 +272,12 @@
         private System.Windows.Forms.Label tipo_donacion_label;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Label quiersdonar_label;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.CheckBox checkblood;
+        private System.Windows.Forms.CheckBox checkmoney;
+        private System.Windows.Forms.CheckBox checkfood;
+        private System.Windows.Forms.CheckBox checktoys;
+        private System.Windows.Forms.CheckBox clothcheck;
     }
 }
