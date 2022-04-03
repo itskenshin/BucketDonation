@@ -14,6 +14,7 @@ namespace BucketDonation
         [STAThread]
         static void Main()
         {
+            /// KLK CON KLLK
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
