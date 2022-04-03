@@ -45,6 +45,13 @@ namespace BucketDonation
 
         }
 
-        
+        private void boton_siguiente_Click(object sender, EventArgs e)
+        {
+            
+            MainScreen mainScreen = new MainScreen();
+            mainScreen.Show();
+            
+            
+        }
     }
 }

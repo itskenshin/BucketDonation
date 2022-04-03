@@ -26,7 +26,7 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()
+        public void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HelpScreen));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -54,6 +54,7 @@
             this.boton_siguiente.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.boton_siguiente.TabIndex = 1;
             this.boton_siguiente.TabStop = false;
+            this.boton_siguiente.Click += new System.EventHandler(this.boton_siguiente_Click);
             // 
             // HelpScreen
             // 
@@ -65,7 +66,6 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "HelpScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.boton_siguiente)).EndInit();
             this.ResumeLayout(false);
