@@ -54,7 +54,7 @@
             this.boton_siguiente.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.boton_siguiente.TabIndex = 1;
             this.boton_siguiente.TabStop = false;
-            this.boton_siguiente.Click += new System.EventHandler(this.pictureBox2_Click);
+            
             // 
             // HelpScreen
             // 
@@ -66,7 +66,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "HelpScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Load += new System.EventHandler(this.HelpScreen_Load);
+            
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.boton_siguiente)).EndInit();
             this.ResumeLayout(false);

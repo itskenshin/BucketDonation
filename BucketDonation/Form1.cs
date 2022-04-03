@@ -36,15 +36,9 @@ namespace BucketDonation
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
         }
 
-        private void HelpScreen_Load(object sender, EventArgs e)
-        {
+        
+        
 
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            //
-        }
         public void StartForm()
         {
             Application.Run(new SplashScrreen());
