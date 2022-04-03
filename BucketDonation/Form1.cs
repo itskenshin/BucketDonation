@@ -50,8 +50,9 @@ namespace BucketDonation
             
             MainScreen mainScreen = new MainScreen();
             mainScreen.Show();
-            
-            
+            this.Visible = false;
+
+
         }
     }
 }
