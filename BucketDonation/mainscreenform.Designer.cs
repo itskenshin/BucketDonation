@@ -46,6 +46,7 @@
             this.checkfood = new System.Windows.Forms.CheckBox();
             this.checktoys = new System.Windows.Forms.CheckBox();
             this.clothcheck = new System.Windows.Forms.CheckBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
@@ -53,6 +54,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -164,7 +166,7 @@
             // 
             this.quiersdonar_label.AutoSize = true;
             this.quiersdonar_label.Font = new System.Drawing.Font("Goudy Old Style", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.quiersdonar_label.Location = new System.Drawing.Point(623, 313);
+            this.quiersdonar_label.Location = new System.Drawing.Point(595, 313);
             this.quiersdonar_label.Name = "quiersdonar_label";
             this.quiersdonar_label.Size = new System.Drawing.Size(538, 18);
             this.quiersdonar_label.TabIndex = 4;
@@ -226,12 +228,22 @@
             this.clothcheck.TabIndex = 10;
             this.clothcheck.UseVisualStyleBackColor = true;
             // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(839, 651);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(190, 65);
+            this.pictureBox7.TabIndex = 11;
+            this.pictureBox7.TabStop = false;
+            // 
             // MainScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(1161, 728);
+            this.ClientSize = new System.Drawing.Size(1194, 728);
+            this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.clothcheck);
             this.Controls.Add(this.checktoys);
             this.Controls.Add(this.checkfood);
@@ -259,6 +271,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -283,5 +296,6 @@
         private System.Windows.Forms.CheckBox checkfood;
         private System.Windows.Forms.CheckBox checktoys;
         private System.Windows.Forms.CheckBox clothcheck;
+        private System.Windows.Forms.PictureBox pictureBox7;
     }
 }
