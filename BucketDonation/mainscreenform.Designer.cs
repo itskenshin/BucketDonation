@@ -33,12 +33,12 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label_donadoresrecientes = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.tel_label = new System.Windows.Forms.Label();
-            this.nombre_label = new System.Windows.Forms.Label();
-            this.tipo_donacion_label = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.tipo_donacion_label = new System.Windows.Forms.Label();
+            this.nombre_label = new System.Windows.Forms.Label();
+            this.tel_label = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.quiersdonar_label = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.checkblood = new System.Windows.Forms.CheckBox();
@@ -49,9 +49,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
@@ -100,36 +100,23 @@
             this.panel1.Size = new System.Drawing.Size(305, 304);
             this.panel1.TabIndex = 3;
             // 
-            // pictureBox3
+            // pictureBox5
             // 
-            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(305, 304);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(191, 56);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(100, 210);
+            this.pictureBox5.TabIndex = 5;
+            this.pictureBox5.TabStop = false;
             // 
-            // tel_label
+            // pictureBox4
             // 
-            this.tel_label.AutoSize = true;
-            this.tel_label.Font = new System.Drawing.Font("Goudy Old Style", 9.254F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tel_label.Location = new System.Drawing.Point(106, 47);
-            this.tel_label.Name = "tel_label";
-            this.tel_label.Size = new System.Drawing.Size(56, 17);
-            this.tel_label.TabIndex = 1;
-            this.tel_label.Text = "Teléfono";
-            // 
-            // nombre_label
-            // 
-            this.nombre_label.AutoSize = true;
-            this.nombre_label.Font = new System.Drawing.Font("Goudy Old Style", 9.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nombre_label.Location = new System.Drawing.Point(13, 47);
-            this.nombre_label.Name = "nombre_label";
-            this.nombre_label.Size = new System.Drawing.Size(54, 17);
-            this.nombre_label.TabIndex = 2;
-            this.nombre_label.Text = "Nombre";
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(13, 75);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(172, 200);
+            this.pictureBox4.TabIndex = 4;
+            this.pictureBox4.TabStop = false;
             // 
             // tipo_donacion_label
             // 
@@ -142,33 +129,47 @@
             this.tipo_donacion_label.TabIndex = 3;
             this.tipo_donacion_label.Text = "Tipo de Donación";
             // 
-            // pictureBox4
+            // nombre_label
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(13, 75);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(172, 200);
-            this.pictureBox4.TabIndex = 4;
-            this.pictureBox4.TabStop = false;
+            this.nombre_label.AutoSize = true;
+            this.nombre_label.Font = new System.Drawing.Font("Goudy Old Style", 9.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nombre_label.Location = new System.Drawing.Point(13, 47);
+            this.nombre_label.Name = "nombre_label";
+            this.nombre_label.Size = new System.Drawing.Size(54, 17);
+            this.nombre_label.TabIndex = 2;
+            this.nombre_label.Text = "Nombre";
             // 
-            // pictureBox5
+            // tel_label
             // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(191, 56);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(100, 210);
-            this.pictureBox5.TabIndex = 5;
-            this.pictureBox5.TabStop = false;
+            this.tel_label.AutoSize = true;
+            this.tel_label.Font = new System.Drawing.Font("Goudy Old Style", 9.254F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tel_label.Location = new System.Drawing.Point(106, 47);
+            this.tel_label.Name = "tel_label";
+            this.tel_label.Size = new System.Drawing.Size(56, 17);
+            this.tel_label.TabIndex = 1;
+            this.tel_label.Text = "Teléfono";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(305, 304);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
             // 
             // quiersdonar_label
             // 
             this.quiersdonar_label.AutoSize = true;
             this.quiersdonar_label.Font = new System.Drawing.Font("Goudy Old Style", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.quiersdonar_label.Location = new System.Drawing.Point(735, 313);
+            this.quiersdonar_label.Location = new System.Drawing.Point(623, 313);
             this.quiersdonar_label.Name = "quiersdonar_label";
-            this.quiersdonar_label.Size = new System.Drawing.Size(359, 18);
+            this.quiersdonar_label.Size = new System.Drawing.Size(538, 18);
             this.quiersdonar_label.TabIndex = 4;
-            this.quiersdonar_label.Text = "Quieres Donar? elegi el tipo de donaciones que quieres hacer";
+            this.quiersdonar_label.Text = "Quieres Donar? elegi el tipo de donaciones que quieres hacer y luego registrate c" +
+    "on tus datos";
             // 
             // pictureBox6
             // 
@@ -252,9 +253,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
