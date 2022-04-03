@@ -64,6 +64,7 @@
             this.ControlBox = false;
             this.Controls.Add(this.boton_siguiente);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "HelpScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.TransparencyKey = System.Drawing.Color.Transparent;
