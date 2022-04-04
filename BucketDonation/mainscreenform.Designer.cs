@@ -87,7 +87,6 @@
             this.label_donadoresrecientes.Size = new System.Drawing.Size(124, 18);
             this.label_donadoresrecientes.TabIndex = 2;
             this.label_donadoresrecientes.Text = "Donadores Reciente";
-            this.label_donadoresrecientes.Click += new System.EventHandler(this.label1_Click);
             // 
             // panel1
             // 
@@ -263,7 +262,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BucketDonation";
             this.TransparencyKey = System.Drawing.SystemColors.Control;
-            this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel1.ResumeLayout(false);

@@ -17,15 +17,6 @@ namespace BucketDonation
             InitializeComponent();
         }
 
-        private void Form3_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
