@@ -24,5 +24,15 @@ namespace BucketDonation
             re.Show();
             this.Visible = false;
         }
+
+        private void label_donadoresrecientes_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tipo_donacion_label_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
