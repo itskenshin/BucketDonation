@@ -37,9 +37,7 @@ namespace BucketDonation
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            MainScreen ms = new MainScreen();
-            ms.Show();
-            this.Visible = false;
+            this.Close();
         }
 
         private void btnRegistrarse_Click(object sender, EventArgs e)
@@ -58,12 +56,17 @@ namespace BucketDonation
             }
 
           else
-            {
-                MessageBox.Show("Te has registrado correctamente!", "Registrado!", MessageBoxButtons.OK);
+            {   
 
+                MessageBox.Show("Te has registrado correctamente!", "Registrado!", MessageBoxButtons.OK);
+                
                 MainScreen ms = new MainScreen();
+               
+                ms.activar();
                 ms.Show();
-                this.Visible = false;
+                this.Close();
+
+                
 
            
             }
@@ -72,9 +75,7 @@ namespace BucketDonation
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
-            MainScreen ms = new MainScreen();
-            ms.Show();
-            this.Visible = false;
+            this.Close();
         }
     }
 }
